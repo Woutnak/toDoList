@@ -15,16 +15,34 @@ header,main{
     align-items: center;
     margin: 100px;
 }
-
-button,input{
+main{
+    flex-direction: column;
+    
+}
+.display-task{
+    color: black;
+    width: 500px;
+    margin: 50px;
+}
+button,#input-add{
     border: none;
     padding: 10px;
 }
 
-input{
+#input-add{
     width: 300px;
 }
-
+ul{
+    list-style: none;
+}
+li{
+    background-color: aliceblue;
+    margin: 3px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 
 
