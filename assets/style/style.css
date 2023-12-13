@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(6, 6, 43);
+    color: aliceblue;
+}
+
+
+/*RESPONSIVE*/
+/* small device*/
+@media only screen and (min-width:600px){
+    body{
+        background:blue
+    }
+}
+/*landscape*/
+@media only screen and (min-width:768px){
+    body{
+        background:pink
+    }
+}
+/*laptop*/
+@media only screen and (min-width:992px){
+    body{
+        background:green
+    }
+}
+/*large laptop*/
+@media only screen and (min-width:1200px){
+    body{
+        background:yellow
+    }
+}
