@@ -9,12 +9,30 @@ body{
     color: aliceblue;
 }
 
+header,main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
+
+button,input{
+    border: none;
+    padding: 10px;
+}
+
+input{
+    width: 300px;
+}
+
+
+
 
 /*RESPONSIVE*/
 /* small device*/
 @media only screen and (min-width:600px){
     body{
-        background:blue
+        background:rgb(73, 73, 140)
     }
 }
 /*landscape*/
@@ -26,12 +44,12 @@ body{
 /*laptop*/
 @media only screen and (min-width:992px){
     body{
-        background:green
+        background:rgb(63, 88, 63)
     }
 }
 /*large laptop*/
 @media only screen and (min-width:1200px){
     body{
-        background:yellow
+        background:rgb(149, 149, 95)
     }
 }
